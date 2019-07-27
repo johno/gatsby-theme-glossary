@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-theme-glossary",
+  "version": "0.0.21",
+  "author": "John Otander",
+  "license": "MIT",
+  "repository": "johno/gatsby-theme-glossary",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ],
+  "dependencies": {
+    "@emotion/core": "10.0.14",
+    "@mdx-js/mdx": "1.0.25",
+    "@mdx-js/react": "1.0.23",
+    "gatsby-plugin-mdx": "1.0.12",
+    "gatsby-plugin-theme-ui": "0.2.6",
+    "gatsby-source-filesystem": "2.1.5",
+    "is-absolute-url": "3.0.0",
+    "remark-emoji": "2.0.2",
+    "remark-slug": "5.1.2",
+    "theme-ui": "0.2.13"
+  },
+  "devDependencies": {
+    "gatsby": "2.13.18",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.18",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
