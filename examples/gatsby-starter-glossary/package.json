@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "gatsby-starter-glossary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.13.18",
-    "gatsby-theme-glossary": "^0.0.2",
+    "gatsby-theme-glossary": "^0.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
