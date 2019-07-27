@@ -6,7 +6,10 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-theme-glossary',
-      options: {}
+      options: {
+        contentPath: './examples/gatsby-starter-glossary/glossary',
+        basePath: '/'
+      }
     }
   ]
 }
