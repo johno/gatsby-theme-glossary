@@ -35,3 +35,13 @@ module.exports = {
   ]
 }
 ```
+
+### Directory structure
+
+```
+glossary
+├── a.mdx
+├── b.mdx
+├── ...
+└── z.mdx
+```

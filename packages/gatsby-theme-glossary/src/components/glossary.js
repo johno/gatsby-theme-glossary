@@ -6,6 +6,7 @@ import { MDXProvider } from '@mdx-js/react'
 import Layout from './layout'
 import Title from './title'
 import Nav from './nav'
+import Description from '../description.mdx'
 
 // Adjust all glossary page headings to be one level
 // less since all files are being aggregated into one
@@ -33,6 +34,7 @@ export default ({ sections }) => {
       <Styled.root>
         <Container>
           <Title />
+          <Description />
           <Nav includedLinks={includedLinks} />
           <MDXProvider components={components}>
             {sections.map(section => (
