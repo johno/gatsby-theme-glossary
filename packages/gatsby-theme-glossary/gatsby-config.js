@@ -15,7 +15,7 @@ module.exports = options => {
         resolve: 'gatsby-source-filesystem',
         options: {
           path: contentPath,
-          name: contentPath
+          name: 'glossary'
         }
       }
     ]
