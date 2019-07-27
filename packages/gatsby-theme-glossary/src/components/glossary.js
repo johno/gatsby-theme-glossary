@@ -3,6 +3,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Container, Styled } from 'theme-ui'
 import { MDXProvider } from '@mdx-js/react'
 
+import Layout from './layout'
 import Title from './title'
 import Nav from './nav'
 
@@ -28,16 +29,18 @@ export default ({ sections }) => {
     .filter(Boolean)
 
   return (
-    <Styled.root>
-      <Container>
-        <Title />
-        <Nav includedLinks={includedLinks} />
-        <MDXProvider components={components}>
-          {sections.map(section => (
-            <MDXRenderer>{section.childMdx.body}</MDXRenderer>
-          ))}
-        </MDXProvider>
-      </Container>
-    </Styled.root>
+    <Layout>
+      <Styled.root>
+        <Container>
+          <Title />
+          <Nav includedLinks={includedLinks} />
+          <MDXProvider components={components}>
+            {sections.map(section => (
+              <MDXRenderer>{section.childMdx.body}</MDXRenderer>
+            ))}
+          </MDXProvider>
+        </Container>
+      </Styled.root>
+    </Layout>
   )
 }
