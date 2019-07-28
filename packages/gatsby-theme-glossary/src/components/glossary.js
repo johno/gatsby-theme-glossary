@@ -6,6 +6,8 @@ import { MDXProvider } from '@mdx-js/react'
 import Layout from './layout'
 import Title from './title'
 import Nav from './nav'
+import heading from './heading'
+
 import Description from '../description.mdx'
 
 // Adjust all glossary page headings to be one level
@@ -13,11 +15,11 @@ import Description from '../description.mdx'
 // in order to ensure proper semantic structure of the
 // document.
 const components = {
-  h1: Styled.h2,
-  h2: Styled.h3,
-  h3: Styled.h4,
-  h4: Styled.h5,
-  h5: Styled.h6,
+  h1: heading(Styled.h2),
+  h2: heading(Styled.h3),
+  h3: heading(Styled.h4),
+  h4: heading(Styled.h5),
+  h5: heading(Styled.h6),
 }
 
 export default ({ sections }) => {
