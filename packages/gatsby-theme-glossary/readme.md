@@ -7,6 +7,8 @@ and [Theme UI](https://theme-ui.com).
 Get up and running in seconds with a beautiful glossary so
 you can do what's more important: **define terminology**.
 
+![image](https://user-images.githubusercontent.com/1424573/62055530-04ea6300-b1d9-11e9-9800-75c41798bedf.png)
+
 ## Features
 
 - 📑 MDX files per letter
