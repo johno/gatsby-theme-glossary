@@ -22,7 +22,7 @@
     "theme-ui": "0.2.13"
   },
   "devDependencies": {
-    "gatsby": "2.13.18",
+    "gatsby": "4.25.7",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },
